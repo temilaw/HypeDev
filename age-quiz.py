@@ -12,8 +12,8 @@ Else if age is less than 13:
     - Display "You qualify for the kiddie discount."
 Otherwise:
     - Display "Age is but a number."
-
 """
+
 age = int(input("Please enter your age: "))
 if age > 100:
     print("Sorry you're dead.")
